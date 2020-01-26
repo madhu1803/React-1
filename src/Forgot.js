@@ -1,6 +1,5 @@
 import React from "react";
-
-const Login = () => {
+const Forgot = () => {
   return (
     <div class="main">
       <div class="container">
@@ -8,7 +7,7 @@ const Login = () => {
           <div class="col-sm-12 col-lg-12">
             <div class="form card">
               <div class="text">
-                <h4 class="display-4 text-center mb-3">Login</h4>
+                <h5 class="display-4 text-center mb-3">Forgot Password</h5>
               </div>
 
               {/* form */}
@@ -22,19 +21,12 @@ const Login = () => {
                     placeholder="Email"
                   ></input>
                 </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputAddress2"
-                    placeholder="password"
-                  ></input>
-                </div>
-                <a href="/forgot">Forgot Password</a>
+
+                <a href="/login">Already have a account?Login</a>
                 <br></br>
-                <a href="/signup">New here? Sign up</a>
-                <a class="btn btn-success btn-block" href="/home" role="button">
-                  Login
+                <a href="/Signup">New here? Sign up</a>
+                <a class="btn btn-success btn-block" href="#" role="button">
+                  Submit
                 </a>
               </form>
               {/* form */}
@@ -45,4 +37,4 @@ const Login = () => {
     </div>
   );
 };
-export default Login;
+export default Forgot;

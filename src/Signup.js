@@ -1,4 +1,5 @@
 import React from "react";
+
 const Sign = () => {
   return (
     <div class="main">
@@ -70,9 +71,14 @@ const Sign = () => {
                     </label>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-success btn-block">
+                <a href="/login">Already Have an account? Sign in</a>
+                <a
+                  class="btn btn-success btn-block"
+                  href="/login"
+                  role="button"
+                >
                   Sign up
-                </button>
+                </a>
               </form>
               {/* form */}
             </div>
