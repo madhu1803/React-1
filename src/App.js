@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./Login";
+
 import "./App.css";
-import Login from "./Login";
-import Sign from "./Signup";
+import Login from "./Layouts/Components/Views/Login";
+import Sign from "./Layouts/Components/Views/Signup";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Forgot from "./Forgot";
-import Home from "./Home";
-import Settings from "./Settings";
+import Forgot from "./Layouts/Components/Views/Forgot";
+import Home from "./Layouts/Components/Views/Home";
+import Settings from "./Layouts/Components/Views/Settings";
 class App extends Component {
   render() {
     return (
