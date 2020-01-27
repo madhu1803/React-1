@@ -8,7 +8,7 @@ const Login = () => {
           <div class="col-sm-12 col-lg-12">
             <div class="form card">
               <div class="text">
-                <h4 class="display-4 text-center mb-3">Login</h4>
+                <h6 class="display-4 text-center mb-3">Login</h6>
               </div>
 
               {/* form */}
@@ -30,12 +30,21 @@ const Login = () => {
                     placeholder="password"
                   ></input>
                 </div>
-                <a href="/forgot">Forgot Password</a>
-                <br></br>
-                <a href="/signup">New here? Sign up</a>
-                <a class="btn btn-success btn-block" href="/home" role="button">
-                  Login
-                </a>
+                <div class="form-group">
+                  {" "}
+                  <a href="/forgot">Forgot Password</a>
+                  <br></br>
+                </div>
+                <div class="form-group">
+                  {" "}
+                  <a href="/signup">New here? Sign up</a>
+                </div>
+
+                <div class="form-group text-right">
+                  <a class="btn btn-success btn-lg" href="/home" role="button">
+                    Login
+                  </a>
+                </div>
               </form>
               {/* form */}
             </div>

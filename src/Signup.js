@@ -9,14 +9,37 @@ const Sign = () => {
             <div class="form card">
               <div class="text">
                 <h4 class="display-4 text-center mb-3">Register</h4>
-                <p class="lead text-center mb-4">
-                  Create your account.Its free and takes only a minute.
-                </p>
               </div>
 
               {/* form */}
 
               <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="Email Address"
+                  ></input>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="inputEmail4"
+                      placeholder="Password"
+                    ></input>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="inputPassword4"
+                      placeholder="Confirm Password"
+                    ></input>
+                  </div>
+                </div>
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <input
@@ -35,50 +58,17 @@ const Sign = () => {
                     ></input>
                   </div>
                 </div>
+
                 <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputAddress"
-                    placeholder="Email"
-                  ></input>
+                  {" "}
+                  <a href="/login">Already Have an account? Sign in</a>
                 </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputAddress2"
-                    placeholder="password"
-                  ></input>
+                <div class="form-group text-right">
+                  {" "}
+                  <a class="btn btn-success btn-lg" href="/login" role="button">
+                    Sign up
+                  </a>
                 </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputAddress2"
-                    placeholder="Confirm password"
-                  ></input>
-                </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="gridCheck"
-                    ></input>
-                    <label class="form-check-label" for="gridCheck">
-                      I agree to the terms & conditions
-                    </label>
-                  </div>
-                </div>
-                <a href="/login">Already Have an account? Sign in</a>
-                <a
-                  class="btn btn-success btn-block"
-                  href="/login"
-                  role="button"
-                >
-                  Sign up
-                </a>
               </form>
               {/* form */}
             </div>
